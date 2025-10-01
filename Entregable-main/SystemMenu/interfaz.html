@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida Saludable</title>
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Barra superior -->
+    <nav class="navbar bg-primary navbar-dark">
+        <div class="container-fluid position-relative">
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#menuLateral" aria-controls="menuLateral">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand centered-brand" href="#">EatSavvy</a>
+            <a href="#" class="parental-link ms-auto">Iniciar con código parental</a>
+        </div>
+    </nav>
+
+    <!-- Menú lateral -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="menuLateral" aria-labelledby="menuLateralLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="menuLateralLabel">Menú</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Iniciar Sesión</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 🔹 Sección hero con fondo completo -->
+    <div class="container">
+        <div class="titulo">
+            <h1>Come Saludable <br>Toda la Semana</h1>
+            <ul>
+                <li>✅ Envios a todo Pucallpa</li>
+                <li>✅ Tu comida de la semana en una entrega</li>
+                <li>✅ Sin cocinar, sin limpiar... ¡Listo en minutos!</li>
+            </ul>
+            <button class="btn-principal">¡Pedir Ya!</button>
+        </div>
+        <div class="hero-img">
+            <img src="assets/images/peruvian food.webp" alt="Imagen comida saludable">
+        </div>
+    </div>
+    </div>
+    <!-- Pasos -->
+    <div class="pasos">
+        <h2>Come bien en tres pasos</h2>
+        <div class="steps-container">
+            <div class="step">
+                <img src="assets/images/1.webp" alt="Elige comida">
+                <h3>1. Elige</h3>
+                <p>Nuestros chefs cocinan para ti, una carta nueva cada semana.</p>
+            </div>
+            <div class="step">
+                <img src="assets/images/2.webp" alt="Recibe pedido">
+                <h3>2. Recibe</h3>
+                <p>Te lo enviamos a domicilio en transporte refrigerado.</p>
+            </div>
+            <div class="step">
+                <img src="assets/images/3.webp" alt="Calienta comida">
+                <h3>3. Calienta</h3>
+                <p>Tu comida aguantará entre 7-10 días en tu nevera y la tendrás lista en 3 minutos.</p>
+            </div>
+        </div>
+    </div>
+    <div class="probar">
+        <h2>Tienes que Probar</h2>
+        <a href='menu.html' class="btn-ver">Ver todo</a>
+    </div>
+    <!--Cards-->
+    <div class="card-container">
+        <div class="card">
+            <img src="assets/images/Lomo.webp">
+            <div class="card-content">
+                <h3>Lomo Saltado</h3>
+                <div class="nutrition-info">
+                    <div class="item">
+                        <strong>838k</strong>
+                        <span>KiloCalorías</span>
+                    </div>
+                    <div class="item">
+                        <strong>37g</strong>
+                        <span>Grasas</span>
+                    </div>
+                    <div class="item">
+                        <strong>86g</strong>
+                        <span>Carbohidratos</span>
+                    </div>
+                    <div class="item">
+                        <strong>43g</strong>
+                        <span>Proteínas</span>
+                    </div>
+                </div>
+                <a href="" class="btn">Añadir</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/images/Chaufa.webp">
+            <div class="card-content">
+                <h3>Chaufa</h3>
+                <div class="nutrition-info">
+                    <div class="item">
+                        <strong>470k</strong>
+                        <span>KiloCalorías</span>
+                    </div>
+                    <div class="item">
+                        <strong>12g</strong>
+                        <span>Grasas</span>
+                    </div>
+                    <div class="item">
+                        <strong>71g</strong>
+                        <span>Carbohidratos</span>
+                    </div>
+                    <div class="item">
+                        <strong>18g</strong>
+                        <span>Proteínas</span>
+                    </div>
+                </div>
+                <a href="" class="btn">Añadir</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/images/Arroz.webp">
+            <div class="card-content">
+                <h3>Arroz con Pollo</h3>
+                <div class="nutrition-info">
+                    <div class="item">
+                        <strong>380k</strong>
+                        <span>KiloCalorías</span>
+                    </div>
+                    <div class="item">
+                        <strong>8g</strong>
+                        <span>Grasas</span>
+                    </div>
+                    <div class="item">
+                        <strong>47g</strong>
+                        <span>Carbohidratos</span>
+                    </div>
+                    <div class="item">
+                        <strong>32g</strong>
+                        <span>Proteínas</span>
+                    </div>
+                </div>
+                <a href="" class="btn">Añadir</a>
+            </div>
+        </div>
+    </div>
+    <div class="probar2">
+        <a href='menu.html' class="btn-ver2">Ver todo</a>
+    </div>
+
+</body>
+
+</html>
